@@ -6,8 +6,6 @@
 */
 int main(void)
 {
-int main(void)
-{
 int digit1, digit2;
 for (digit1 = 0; digit1 < 9; digit1++)
 {
