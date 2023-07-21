@@ -1,4 +1,10 @@
 #include "main.h"
+/*
+ * File: 0-isupper.c
+ * Author: farah ramadan
+ */
+
+
 /**
  *_isupper - check if c is upper
  *@c: input for alphabet
