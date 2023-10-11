@@ -1,4 +1,4 @@
-#incude <stdlib.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
  * struct dog - a dog struct
