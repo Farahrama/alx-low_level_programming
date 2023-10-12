@@ -12,8 +12,8 @@ if (array && size && cmp)
 while (i < size)
 {
 if (cmp(array[i]))
-return(i);
+return (i);
 i++;
 }
-return(-1);
+return (-1);
 }
