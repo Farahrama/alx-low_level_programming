@@ -13,7 +13,7 @@ va_list sep;
 va_start(sep, n);
 if(separator == NULL)
 separator = "";
-for (i = 0; i < n; i++)
+for(i = 0; i < n; i++)
 {
 c = va_arg(sep, char*);
 if(c == NULL)
