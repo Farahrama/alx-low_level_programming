@@ -1,8 +1,8 @@
 #include "variadic_functions.h"
 /**
- * print_strings -  prints strings
- * @separator: A string to be printed between the strings
- * @n: number of strings passed to the function
+ * print_strings -  prints strings passed to the function separed by separators
+ * @separator: A string that is used to separate strings
+ * @n: number of number of unnamed parameters
  * Return: Always 0.
 */
 void print_strings(const char *separator, const unsigned int n, ...)
