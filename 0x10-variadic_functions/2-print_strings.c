@@ -11,15 +11,15 @@ char *c;
 unsigned int i;
 va_list sep;
 va_start(sep, n);
-if (separator == NULL)
+if(separator == NULL)
 separator = "";
 for (i = 0; i < n; i++)
 {
 c = va_arg(sep, char*);
-if (c == NULL)
+if(c == NULL)
 c = "(nil)";
 printf("%s", c);
-if (i < n -1)
+if(i < n -1)
 printf("%s", separator);
 }
 printf("\n");
