@@ -2,7 +2,7 @@
 #include "function_pointers.h"
 
 /**
- * print_name_as_is - prints a name
+ * print_name - prints a name
  * @name: name of the person
  * @f: the printing function pointer
  * Return: void.
