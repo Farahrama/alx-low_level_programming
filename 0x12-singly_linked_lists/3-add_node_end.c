@@ -12,7 +12,7 @@ unsigned int _strlen(char *str)
 unsigned int y;
 for (y = 0; str[y]; y++)
 ;
-return (i);
+return (y);
 }
 /**
  * add_node_end - adds a new node to the end of linked list
@@ -35,7 +35,7 @@ if (n->str == NULL)
 free(n);
 return (NULL);
 }
-n->len = _strlen(new->str);
+n->len = _strlen(n->str);
 n->next = NULL;
 if (*head == NULL)
 {
