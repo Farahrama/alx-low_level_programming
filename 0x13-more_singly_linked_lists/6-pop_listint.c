@@ -13,7 +13,7 @@ if (head == NULL || *head == NULL)
 return (0);
 start = *head;
 *head = start->next;
-s = start->s;
+s = start->n;
 free(start);
 return (s);
 }
