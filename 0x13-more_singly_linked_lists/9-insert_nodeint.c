@@ -16,7 +16,7 @@ return (NULL);
 if (idx != 0)
 {
 temp = *head;
-for (y = 0; y < idx - 1 && tp != NULL; y++)
+for (y = 0; y < idx - 1 && temp != NULL; y++)
 {
 temp = temp->next;
 }
@@ -35,5 +35,5 @@ return (new);
 }
 new->next = temp->next;
 temp->next = new;
-return (nw);
+return (new);
 }
