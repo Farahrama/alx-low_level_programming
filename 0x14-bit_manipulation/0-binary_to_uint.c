@@ -12,17 +12,17 @@ int y;
 unsigned int m;
 m = 0;
 if (!b)
-		return (0);
-	for (y = 0; b[y] != '\0'; y++)
-	{
-		if (b[y] != '0' && b[y] != '1')
-			return (0);
-	}
-	for (y = 0; b[y] != '\0'; y++)
+return (0);
+for (y = 0; b[y] != '\0'; y++)
 {
-		j <<= 1;
-		if (b[y] == '1')
-			m += 1;
+if (b[y] != '0' && b[y] != '1')
+return (0);
 }
-	return (m);
+for (y = 0; b[y] != '\0'; y++)
+{
+m <<= 1;
+if (b[y] == '1')
+m += 1;
+}
+return (m);
 }
