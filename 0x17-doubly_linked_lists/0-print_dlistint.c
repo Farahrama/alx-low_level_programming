@@ -15,5 +15,5 @@ printf("%d\n", h->n);
 h = h->next;
 cout++;
 }
-return cout;
+return (cout);
 }
