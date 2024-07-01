@@ -3,7 +3,7 @@
 /**
  * insert_dnodeint_at_index - inserts a new node at a given position
  * @h: double pointer to the head of the list
- * @idx: index of the list where the new node should be added. Index starts at 0
+ * @idx: index of the list where the new node should be added
  * @n: data to insert in the new node
  * Return: the address of the new node, or NULL if it failed
  */
@@ -32,7 +32,7 @@ while (current != NULL && count < idx - 1)
 current = current->next;
 count++;
 }
-while (current == NULL || (current->next == NULL && count +1 < idx))
+while (current == NULL || (current->next == NULL && count + 1 < idx))
 {
 free(new_node);
 return (NULL);
