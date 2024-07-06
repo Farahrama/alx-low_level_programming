@@ -33,5 +33,5 @@ current->next->prev = current->prev;
 if (current->prev != NULL)
 current->prev->next = current->next;
 free(current);
-return (1);}
+return (1);
 }
