@@ -3,7 +3,7 @@
  * hash_table_set - function that adds an element to the hash table.
  * @ht: is the hash table you want to add or update the key/value to
  * @key: is the key. key can not be an empty string
- * @value: value is the value associated with the key. value must be duplicated. value can be an empty string
+ * @value: value is the value associated with the key
  */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
@@ -14,7 +14,7 @@ if (ht == NULL || key == NULL || value == NULL)
 return (0);
 index = hash_djb2((unsigned char *)key) % ht->size;
 temp = ht->array[index];
-while(temp)
+while (temp)
 {
 if (strcmp(temp->key, key) == 0)
 {
