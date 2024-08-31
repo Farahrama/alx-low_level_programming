@@ -1,6 +1,4 @@
 #include "hash_tables.h"
-#include <string.h>
-#include <stdio.h>
 /**
  * hash_table_set - function that adds an element to the hash table.
  * @ht: is the hash table you want to add or update the key/value to
@@ -33,4 +31,5 @@ new_node->key = strdup(key);
 new_node->value = strdup(value);
 new_node->next = ht->array[index];
 ht->array[index] = new_node;
+return (1);
 }
